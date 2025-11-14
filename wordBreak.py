@@ -15,3 +15,9 @@ class Solution:
                 if dp[i]:
                     break
         return dp[0]
+
+if __name__ == "__main__":
+    sol = Solution()
+    s = "leetcode"
+    wordDict = ["leet","code"]
+    print("Output is : ", sol.wordBreak(s,wordDict))
